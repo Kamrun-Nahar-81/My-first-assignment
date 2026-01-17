@@ -1,0 +1,48 @@
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter;
+}
+
+.nav {
+    margin: 5px auto;
+    width: 1057px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: red; */
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul{
+    display: flex;
+    gap: 32px;
+}
+li a{
+    text-decoration: none;
+    
+}
+.header{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    background-color: white;
+}
+.logo-navbar{
+    width: 140px;
+    height: 60px;
+}
+.action-button{
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
